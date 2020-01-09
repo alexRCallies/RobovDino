@@ -10,11 +10,11 @@ namespace Robots_vs.Dinosaurs
     {
         public string name = Console.ReadLine();
         public int recruitPoints;
-        Dinosaurs raptor = new Dinosaurs("Raptor", 5, 100, 100, 75, 4, 2);
-        Dinosaurs giga = new Dinosaurs("Giganotasaurus", 2, 350, 200, 20, 2, 5);
-        Dinosaurs anky = new Dinosaurs("Ankylosaurus", 3, 300, 30, 200, 1, 4);
-        Dinosaurs ptera = new Dinosaurs("Pteranadon", 5, 50, 150, 25, 6, 2);
-        Dinosaurs packleader = new Dinosaurs("Dino Rider", 4, 150, 150, 150, 5, 3);
+        Dinosaurs raptor = new Dinosaurs("Raptor", 5, 100, 100, 75, 6, 8, 1);
+        Dinosaurs giga = new Dinosaurs("Giganotasaurus", 2, 350, 200, 20, 8, 5, 5);
+        Dinosaurs anky = new Dinosaurs("Ankylosaurus", 3, 300, 30, 200, 9, 8, 4);
+        Dinosaurs ptera = new Dinosaurs("Pteranadon", 5, 50, 150, 25, 4, 4, 2);
+        Dinosaurs packleader = new Dinosaurs("Dino Rider", 4, 150, 150, 150, 5, 3, 3);
         List<Dinosaurs> pack = new List<Dinosaurs>();
 
 
@@ -46,6 +46,14 @@ namespace Robots_vs.Dinosaurs
                 {
                     pack.Add(raptor);
                     recruitPoints -= raptor.teamValue;
+                    if(recruitPoints <= 0)
+                    {
+                        pack.Remove(raptor);
+                        recruitPoints += raptor.teamValue;
+                        Console.WriteLine("Not Enough Recruitment Points");
+                        Console.WriteLine(recruitPoints);
+                        Console.WriteLine("");
+                    }
 
                    
                     foreach (Dinosaurs dino in pack)
@@ -61,7 +69,15 @@ namespace Robots_vs.Dinosaurs
                 {
                     pack.Add(giga);
                     recruitPoints -= giga.teamValue;
-                    
+                    if (recruitPoints <= 0)
+                    {
+                        pack.Remove(giga);
+                        recruitPoints += giga.teamValue;
+                        Console.WriteLine("Not Enough Recruitment Points");
+                        Console.WriteLine(recruitPoints);
+                        Console.WriteLine("");
+                    }
+
                     foreach (Dinosaurs dino in pack)
                     {
                         Console.WriteLine("");
@@ -75,7 +91,15 @@ namespace Robots_vs.Dinosaurs
                 {
                     pack.Add(anky);
                     recruitPoints -= anky.teamValue;
-                   
+                    if (recruitPoints <= 0)
+                    {
+                        pack.Remove(anky);
+                        recruitPoints += anky.teamValue;
+                        Console.WriteLine("Not Enough Recruitment Points");
+                        Console.WriteLine(recruitPoints);
+                        Console.WriteLine("");
+                    }
+
                     foreach (Dinosaurs dino in pack)
                     {
                         Console.WriteLine("");
@@ -89,7 +113,15 @@ namespace Robots_vs.Dinosaurs
                 {
                     pack.Add(ptera);
                     recruitPoints -= ptera.teamValue;
-                    
+                    if (recruitPoints <= 0)
+                    {
+                        pack.Remove(ptera);
+                        recruitPoints += ptera.teamValue;
+                        Console.WriteLine("Not Enough Recruitment Points");
+                        Console.WriteLine(recruitPoints);
+                        Console.WriteLine("");
+                    }
+
                     foreach (Dinosaurs dino in pack)
                     {
                         Console.WriteLine("");
@@ -103,7 +135,14 @@ namespace Robots_vs.Dinosaurs
                 {
                     pack.Add(packleader);
                     recruitPoints -= packleader.teamValue;
-                    
+                    if (recruitPoints <= 0)
+                    {
+                        pack.Remove(packleader);
+                        recruitPoints += packleader.teamValue;
+                        Console.WriteLine("Not Enough Recruitment Points");
+                        Console.WriteLine(recruitPoints);
+                        Console.WriteLine("");
+                    }
                     foreach (Dinosaurs dino in pack)
                     {
                         Console.WriteLine("");
@@ -120,6 +159,7 @@ namespace Robots_vs.Dinosaurs
             Console.WriteLine("");
             Console.WriteLine("Your Herd has answered your call!");
             Console.WriteLine("");
+            
         }
 
     }

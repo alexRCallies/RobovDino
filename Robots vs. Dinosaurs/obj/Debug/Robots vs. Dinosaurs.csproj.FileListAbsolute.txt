@@ -4,3 +4,9 @@ C:\Users\whapa\OneDrive\Documents\DevCodeCamp\Projects\Robots vs. Dinosaurs\Robo
 C:\Users\whapa\OneDrive\Documents\DevCodeCamp\Projects\Robots vs. Dinosaurs\Robots vs. Dinosaurs\obj\Debug\Robots vs. Dinosaurs.csprojAssemblyReference.cache
 C:\Users\whapa\OneDrive\Documents\DevCodeCamp\Projects\Robots vs. Dinosaurs\Robots vs. Dinosaurs\obj\Debug\Robots_vs.Dinosaurs.exe
 C:\Users\whapa\OneDrive\Documents\DevCodeCamp\Projects\Robots vs. Dinosaurs\Robots vs. Dinosaurs\obj\Debug\Robots_vs.Dinosaurs.pdb
+D:\Documents\DevCodeCamp\Projects\Robots vs. Dinosaurs\Robots vs. Dinosaurs\bin\Debug\Robots_vs.Dinosaurs.exe.config
+D:\Documents\DevCodeCamp\Projects\Robots vs. Dinosaurs\Robots vs. Dinosaurs\bin\Debug\Robots_vs.Dinosaurs.exe
+D:\Documents\DevCodeCamp\Projects\Robots vs. Dinosaurs\Robots vs. Dinosaurs\bin\Debug\Robots_vs.Dinosaurs.pdb
+D:\Documents\DevCodeCamp\Projects\Robots vs. Dinosaurs\Robots vs. Dinosaurs\obj\Debug\Robots vs. Dinosaurs.csprojAssemblyReference.cache
+D:\Documents\DevCodeCamp\Projects\Robots vs. Dinosaurs\Robots vs. Dinosaurs\obj\Debug\Robots_vs.Dinosaurs.exe
+D:\Documents\DevCodeCamp\Projects\Robots vs. Dinosaurs\Robots vs. Dinosaurs\obj\Debug\Robots_vs.Dinosaurs.pdb

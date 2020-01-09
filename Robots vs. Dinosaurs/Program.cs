@@ -24,11 +24,11 @@ namespace Robots_vs.Dinosaurs
             Console.WriteLine("");
 
 
-            Dinosaurs raptor = new Dinosaurs("Raptor", 5, 100, 100, 75, 4, 2);
-            Dinosaurs giga = new Dinosaurs("Giganotasaurus", 2, 350, 200, 20, 2, 5);
-            Dinosaurs anky = new Dinosaurs("Ankylosaurus", 3, 300, 30, 200, 1, 4);
-            Dinosaurs ptera = new Dinosaurs("Pteranadon", 5, 50, 150, 25, 6, 2);
-            Dinosaurs packleader = new Dinosaurs("Dino Rider", 4, 150, 150, 150, 5, 3);
+            Dinosaurs raptor = new Dinosaurs("Raptor", 5, 100, 100, 75, 4, 8, 1);
+            Dinosaurs giga = new Dinosaurs("Giganotasaurus", 2, 350, 200, 20, 2, 5, 5);
+            Dinosaurs anky = new Dinosaurs("Ankylosaurus", 3, 300, 30, 200, 1, 8, 4);
+            Dinosaurs ptera = new Dinosaurs("Pteranadon", 5, 50, 150, 25, 6, 4, 2);
+            Dinosaurs packleader = new Dinosaurs("Dino Rider", 4, 150, 150, 150, 5, 3, 3);
             List<Dinosaurs> herd = new List<Dinosaurs>();
             herd.Add(raptor);
             herd.Add(giga);
