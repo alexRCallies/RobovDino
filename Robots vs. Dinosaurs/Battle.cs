@@ -8,6 +8,12 @@ namespace Robots_vs.Dinosaurs
 {
     class Battle
     {
-
+        Herd herd = new Herd();
+        Fleet fleet = new Fleet();
+        
+        public void RunBattle()
+        {
+            herd.RecruitHerd(herd.herdList);
+        }
     }
 }

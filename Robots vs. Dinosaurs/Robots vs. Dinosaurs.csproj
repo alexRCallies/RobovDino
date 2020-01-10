@@ -44,13 +44,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Battle.cs" />
+    <Compile Include="Fleet.cs" />
     <Compile Include="Herd.cs" />
-    <Compile Include="HowToPlay.cs" />
+    <Compile Include="Intro.cs" />
     <Compile Include="Items.cs" />
     <Compile Include="Player1.cs" />
     <Compile Include="Player2.cs" />
-    <Compile Include="Robots.cs" />
-    <Compile Include="Dinosaurs.cs" />
+    <Compile Include="Robot.cs" />
+    <Compile Include="Dinosaur.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

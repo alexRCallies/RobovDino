@@ -8,23 +8,44 @@ namespace Robots_vs.Dinosaurs
 {
     class Herd
     {
-        Player1 player1 = new Player1();
-        Dinosaurs raptor = new Dinosaurs("Raptor", 100, 100, 75, 4, 2, 1);
-        Dinosaurs giga = new Dinosaurs("Giganotasaurus", 350, 200, 20, 2, 5, 5);
-        Dinosaurs anky = new Dinosaurs("Ankylosaurus", 300, 100, 200, 1, 2, 3);
-        Dinosaurs ptera = new Dinosaurs("Pteranadon", 50, 150, 25, 6, 6, 2);
-        Dinosaurs packleader = new Dinosaurs("Dino Rider", 150, 150, 150, 5, 7, 4);
-        List<Dinosaurs> pack = new List<Dinosaurs>();
-
-        public void RecruitHerd(List<Dinosaurs> herd)
+        Player1 player1;
+        Dinosaur raptor;
+        Dinosaur giga; 
+        Dinosaur anky;
+        Dinosaur ptera; 
+        Dinosaur packleader;
+         public List<Dinosaur> pack = new List<Dinosaur>();
+        public List<Dinosaur> herdList = new List<Dinosaur>();
+        public Herd()
         {
+            raptor = new Dinosaur("Raptor", 200, 100, 4, 2, 1);
+            giga = new Dinosaur("Giganotasaurus", 650, 200, 2, 5, 5);
+             anky = new Dinosaur("Ankylosaurus", 1100, 100, 1, 2, 3);
+             ptera = new Dinosaur("Pteranadon", 100, 150, 6, 6, 2);
+             packleader = new Dinosaur("Dino Rider", 300, 150, 5, 7, 4);
+          
+            herdList.Add(raptor);
+            herdList.Add(giga);
+            herdList.Add(anky);
+            herdList.Add(ptera);
+            herdList.Add(packleader);
+            player1 = new Player1();
+            
+        }
+
+
+
+
+        public void RecruitHerd(List<Dinosaur> herd)
+        {
+           
             Console.WriteLine("Player 1 summon your herd.");
             Console.WriteLine("");
             Console.WriteLine("Dinosaurs");
-            foreach (Dinosaurs dino in herd)
+            foreach (Dinosaur dino in herd)
             {
                 Console.WriteLine("");
-                Console.WriteLine($"Name: { dino.name + "/  Health/" + dino.health + "/  Attack/" + dino.attackPower + "/  Defense/" + dino.defensePower + "/  Evasion/" + dino.evasion + "/  Crit Chance/" + dino.critChance + "/  Costs/" + dino.teamValue}");
+                Console.WriteLine($"Name: { dino.name + "/  Health/" + dino.health + "/  Attack/" + dino.attackPower + "/  Evasion/" + dino.evasion + "/  Crit Chance/" + dino.critChance + "/  Costs/" + dino.teamValue}");
                 Console.WriteLine("");
             }
             Console.WriteLine("You have: " + player1.recruitPoints + " Recruit Points.");
@@ -46,10 +67,10 @@ namespace Robots_vs.Dinosaurs
                     }
 
 
-                    foreach (Dinosaurs dino in pack)
+                    foreach (Dinosaur dino in pack)
                     {
                         Console.WriteLine("");
-                        Console.WriteLine($"Name: { dino.name + "/  Health/" + dino.health + "/  Attack/" + dino.attackPower + "/  Defense/" + dino.defensePower + "/  Evasion/" + dino.evasion + "/  Crit Chance/" + dino.critChance + "/  Costs/" + dino.teamValue}");
+                        Console.WriteLine($"Name: { dino.name + "/  Health/" + dino.health + "/  Attack/" + dino.attackPower  + "/  Evasion/" + dino.evasion + "/  Crit Chance/" + dino.critChance + "/  Costs/" + dino.teamValue}");
                         Console.WriteLine("");
                     }
                     Console.WriteLine("");
@@ -68,10 +89,10 @@ namespace Robots_vs.Dinosaurs
                         Console.WriteLine("");
                     }
 
-                    foreach (Dinosaurs dino in pack)
+                    foreach (Dinosaur dino in pack)
                     {
                         Console.WriteLine("");
-                        Console.WriteLine($"Name: { dino.name + "/  Health/" + dino.health + "/  Attack/" + dino.attackPower + "/  Defense/" + dino.defensePower + "/  Evasion/" + dino.evasion + "/  Costs/" + dino.teamValue}");
+                        Console.WriteLine($"Name: { dino.name + "/  Health/" + dino.health + "/  Attack/" + dino.attackPower + "/  Evasion/" + dino.evasion + "/  Costs/" + dino.teamValue}");
                         Console.WriteLine("");
                     }
                     Console.WriteLine("");
@@ -90,10 +111,10 @@ namespace Robots_vs.Dinosaurs
                         Console.WriteLine("");
                     }
 
-                    foreach (Dinosaurs dino in pack)
+                    foreach (Dinosaur dino in pack)
                     {
                         Console.WriteLine("");
-                        Console.WriteLine($"Name: { dino.name + "/  Health/" + dino.health + "/  Attack/" + dino.attackPower + "/  Defense/" + dino.defensePower + "/  Evasion/" + dino.evasion + "/  Costs/" + dino.teamValue}");
+                        Console.WriteLine($"Name: { dino.name + "/  Health/" + dino.health + "/  Attack/" + dino.attackPower  + "/  Evasion/" + dino.evasion + "/  Costs/" + dino.teamValue}");
                         Console.WriteLine("");
                     }
                     Console.WriteLine("");
@@ -112,10 +133,10 @@ namespace Robots_vs.Dinosaurs
                         Console.WriteLine("");
                     }
 
-                    foreach (Dinosaurs dino in pack)
+                    foreach (Dinosaur dino in pack)
                     {
                         Console.WriteLine("");
-                        Console.WriteLine($"Name: { dino.name + "/  Health/" + dino.health + "/  Attack/" + dino.attackPower + "/  Defense/" + dino.defensePower + "/  Evasion/" + dino.evasion + "/  Costs/" + dino.teamValue}");
+                        Console.WriteLine($"Name: { dino.name + "/  Health/" + dino.health + "/  Attack/" + dino.attackPower  + "/  Evasion/" + dino.evasion + "/  Costs/" + dino.teamValue}");
                         Console.WriteLine("");
                     }
                     Console.WriteLine("");
@@ -133,10 +154,10 @@ namespace Robots_vs.Dinosaurs
                         Console.WriteLine(player1.recruitPoints);
                         Console.WriteLine("");
                     }
-                    foreach (Dinosaurs dino in pack)
+                    foreach (Dinosaur dino in pack)
                     {
                         Console.WriteLine("");
-                        Console.WriteLine($"Name: { dino.name + "/  Health/" + dino.health + "/  Attack/" + dino.attackPower + "/  Defense/" + dino.defensePower + "/  Evasion/" + dino.evasion + "/  Costs/" + dino.teamValue}");
+                        Console.WriteLine($"Name: { dino.name + "/  Health/" + dino.health + "/  Attack/" + dino.attackPower  + "/  Evasion/" + dino.evasion + "/  Costs/" + dino.teamValue}");
                         Console.WriteLine("");
                     }
                     Console.WriteLine("");
@@ -149,6 +170,7 @@ namespace Robots_vs.Dinosaurs
             Console.WriteLine("");
             Console.WriteLine("Your Herd has answered your call!");
             Console.WriteLine("");
+            
         }
     }
 }
