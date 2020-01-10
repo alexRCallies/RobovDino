@@ -6,13 +6,8 @@ using System.Threading.Tasks;
 
 namespace Robots_vs.Dinosaurs
 {
-    class Items
+    class Battle
     {
-        public int sword;
-        public int shield;
-        public int bomb;
-        public int repairPack;
-
 
     }
 }

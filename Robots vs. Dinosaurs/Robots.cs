@@ -10,20 +10,22 @@ namespace Robots_vs.Dinosaurs
     {
         public string name;
         public int health;
-        public int powerLevel;
+        
         public int attackPower;
         public int defensePower;
         public int evasionPower;
+        public int critChance;
         public int teamValue;
 
-        public Robots(string name, int powerLevel, int health, int attackPower, int defensePower, int evasionPower, int teamValue)
+        public Robots(string name, int health, int attackPower, int defensePower, int evasionPower, int critChance, int teamValue)
         {
             this.name = name;
             this.health = health;
-            this.powerLevel = powerLevel;
+            
             this.attackPower = attackPower;
             this.defensePower = defensePower;
             this.evasionPower = evasionPower;
+            this.critChance = critChance;
             this.teamValue = teamValue;
 
         }

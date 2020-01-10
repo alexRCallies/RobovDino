@@ -10,3 +10,9 @@ D:\Documents\DevCodeCamp\Projects\Robots vs. Dinosaurs\Robots vs. Dinosaurs\bin\
 D:\Documents\DevCodeCamp\Projects\Robots vs. Dinosaurs\Robots vs. Dinosaurs\obj\Debug\Robots vs. Dinosaurs.csprojAssemblyReference.cache
 D:\Documents\DevCodeCamp\Projects\Robots vs. Dinosaurs\Robots vs. Dinosaurs\obj\Debug\Robots_vs.Dinosaurs.exe
 D:\Documents\DevCodeCamp\Projects\Robots vs. Dinosaurs\Robots vs. Dinosaurs\obj\Debug\Robots_vs.Dinosaurs.pdb
+E:\Documents\DevCodeCamp\Projects\Robots vs. Dinosaurs\Robots vs. Dinosaurs\bin\Debug\Robots_vs.Dinosaurs.exe.config
+E:\Documents\DevCodeCamp\Projects\Robots vs. Dinosaurs\Robots vs. Dinosaurs\bin\Debug\Robots_vs.Dinosaurs.exe
+E:\Documents\DevCodeCamp\Projects\Robots vs. Dinosaurs\Robots vs. Dinosaurs\bin\Debug\Robots_vs.Dinosaurs.pdb
+E:\Documents\DevCodeCamp\Projects\Robots vs. Dinosaurs\Robots vs. Dinosaurs\obj\Debug\Robots vs. Dinosaurs.csprojAssemblyReference.cache
+E:\Documents\DevCodeCamp\Projects\Robots vs. Dinosaurs\Robots vs. Dinosaurs\obj\Debug\Robots_vs.Dinosaurs.exe
+E:\Documents\DevCodeCamp\Projects\Robots vs. Dinosaurs\Robots vs. Dinosaurs\obj\Debug\Robots_vs.Dinosaurs.pdb

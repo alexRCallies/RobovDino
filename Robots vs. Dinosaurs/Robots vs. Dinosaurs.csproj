@@ -43,13 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Battle.cs" />
+    <Compile Include="Herd.cs" />
+    <Compile Include="HowToPlay.cs" />
+    <Compile Include="Items.cs" />
     <Compile Include="Player1.cs" />
     <Compile Include="Player2.cs" />
     <Compile Include="Robots.cs" />
     <Compile Include="Dinosaurs.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Weapons.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
