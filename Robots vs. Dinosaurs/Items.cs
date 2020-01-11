@@ -25,15 +25,6 @@ namespace Robots_vs.Dinosaurs
 
         }
 
-        public void GiveItem(Robot robots)
-        {
-            string giveItem = Console.ReadLine();
-            if(giveItem == name + " " + robots.name )
-            {
-                robots.attackPower += addAttack;
-                robots.health += addHealth;
-                
-            }
-        }
+       
     }
 }

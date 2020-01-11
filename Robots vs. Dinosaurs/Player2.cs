@@ -16,8 +16,8 @@ namespace Robots_vs.Dinosaurs
         public Player2()
         {
             this.name = "Player 2";
-            this.recruitPoints = 15;
-            this.shopPoints = 10;
+            this.recruitPoints = 10;
+            this.shopPoints = 3;
         }
         
     }

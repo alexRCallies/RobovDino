@@ -13,7 +13,10 @@ namespace Robots_vs.Dinosaurs
         
         public void RunBattle()
         {
-            herd.RecruitHerd(herd.herdList);
+           // herd.RecruitHerd(herd.herdList);
+            fleet.ConstructFleet(fleet.robots);
+            fleet.PurchaseItems(fleet.shop);
+            fleet.EquipItems();
         }
     }
 }
