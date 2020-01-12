@@ -197,9 +197,1006 @@ namespace Robots_vs.Dinosaurs
                 {
 
                     Console.WriteLine(fleet[0].name + " Has Fallen...");
-                    pack.RemoveAt(0);
+                    fleet.RemoveAt(0);
                 }
             }
+            if (choice == "1 2")
+            {
+                pack[0].Attack(fleet[1]);
+                if (fleet[1].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[1].name + " Has Fallen...");
+                    fleet.RemoveAt(1);
+                }
+            }
+            if (choice == "1 3")
+            {
+                pack[0].Attack(fleet[2]);
+                if (fleet[2].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[2].name + " Has Fallen...");
+                    fleet.RemoveAt(2);
+                }
+            }
+            if (choice == "1 4")
+            {
+                pack[0].Attack(fleet[3]);
+                if (fleet[3].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[3].name + " Has Fallen...");
+                    fleet.RemoveAt(3);
+                }
+            }
+            if (choice == "1 5")
+            {
+                pack[0].Attack(fleet[4]);
+                if (fleet[4].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[4].name + " Has Fallen...");
+                    fleet.RemoveAt(4);
+                }
+            }
+            if (choice == "1 6")
+            {
+                pack[0].Attack(fleet[5]);
+                if (fleet[5].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[5].name + " Has Fallen...");
+                    fleet.RemoveAt(5);
+                }
+            }
+            if (choice == "1 7")
+            {
+                pack[0].Attack(fleet[6]);
+                if (fleet[6].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[6].name + " Has Fallen...");
+                    fleet.RemoveAt(6);
+                }
+            }
+            if (choice == "1 8")
+            {
+                pack[0].Attack(fleet[7]);
+                if (fleet[7].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[7].name + " Has Fallen...");
+                    fleet.RemoveAt(7);
+                }
+            }
+            if (choice == "1 9")
+            {
+                pack[0].Attack(fleet[8]);
+                if (fleet[8].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[8].name + " Has Fallen...");
+                    fleet.RemoveAt(8);
+                }
+            }
+            if (choice == "1 10")
+            {
+                pack[0].Attack(fleet[9]);
+                if (fleet[9].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[9].name + " Has Fallen...");
+                    fleet.RemoveAt(9);
+                }
+            }
+            if (choice == "2 1")
+            {
+                pack[1].Attack(fleet[0]);
+                if (fleet[0].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[0].name + " Has Fallen...");
+                    fleet.RemoveAt(0);
+                }
+            }
+            if (choice == "2 2")
+            {
+                pack[1].Attack(fleet[1]);
+                if (fleet[1].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[1].name + " Has Fallen...");
+                    fleet.RemoveAt(1);
+                }
+            }
+            if (choice == "2 3")
+            {
+                pack[1].Attack(fleet[2]);
+                if (fleet[2].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[2].name + " Has Fallen...");
+                    fleet.RemoveAt(2);
+                }
+            }
+            if (choice == "2 4")
+            {
+                pack[1].Attack(fleet[3]);
+                if (fleet[3].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[3].name + " Has Fallen...");
+                    fleet.RemoveAt(3);
+                }
+            }
+            if (choice == "2 5")
+            {
+                pack[1].Attack(fleet[4]);
+                if (fleet[4].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[4].name + " Has Fallen...");
+                    fleet.RemoveAt(4);
+                }
+            }
+            if (choice == "2 6")
+            {
+                pack[1].Attack(fleet[5]);
+                if (fleet[5].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[5].name + " Has Fallen...");
+                    fleet.RemoveAt(5);
+                }
+            }
+            if (choice == "2 7")
+            {
+                pack[1].Attack(fleet[6]);
+                if (fleet[6].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[6].name + " Has Fallen...");
+                    fleet.RemoveAt(6);
+                }
+            }
+            if (choice == "2 8")
+            {
+                pack[1].Attack(fleet[7]);
+                if (fleet[7].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[7].name + " Has Fallen...");
+                    fleet.RemoveAt(7);
+                }
+            }
+            if (choice == "2 9")
+            {
+                pack[1].Attack(fleet[8]);
+                if (fleet[8].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[8].name + " Has Fallen...");
+                    fleet.RemoveAt(8);
+                }
+            }
+            if (choice == "2 10")
+            {
+                pack[1].Attack(fleet[9]);
+                if (fleet[9].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[9].name + " Has Fallen...");
+                    fleet.RemoveAt(9);
+                }
+            }
+            if (choice == "3 1")
+            {
+                pack[2].Attack(fleet[0]);
+                if (fleet[0].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[0].name + " Has Fallen...");
+                    fleet.RemoveAt(0);
+                }
+            }
+            if (choice == "3 2")
+            {
+                pack[2].Attack(fleet[1]);
+                if (fleet[1].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[1].name + " Has Fallen...");
+                    fleet.RemoveAt(1);
+                }
+            }
+            if (choice == "3 3")
+            {
+                pack[2].Attack(fleet[2]);
+                if (fleet[2].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[2].name + " Has Fallen...");
+                    fleet.RemoveAt(2);
+                }
+            }
+            if (choice == "3 4")
+            {
+                pack[2].Attack(fleet[3]);
+                if (fleet[3].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[3].name + " Has Fallen...");
+                    fleet.RemoveAt(3);
+                }
+            }
+            if (choice == "3 5")
+            {
+                pack[2].Attack(fleet[4]);
+                if (fleet[4].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[4].name + " Has Fallen...");
+                    fleet.RemoveAt(4);
+                }
+            }
+            if (choice == "3 6")
+            {
+                pack[2].Attack(fleet[5]);
+                if (fleet[5].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[5].name + " Has Fallen...");
+                    fleet.RemoveAt(5);
+                }
+            }
+            if (choice == "3 7")
+            {
+                pack[2].Attack(fleet[6]);
+                if (fleet[6].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[6].name + " Has Fallen...");
+                    fleet.RemoveAt(6);
+                }
+            }
+            if (choice == "3 8")
+            {
+                pack[2].Attack(fleet[7]);
+                if (fleet[7].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[7].name + " Has Fallen...");
+                    fleet.RemoveAt(7);
+                }
+            }
+            if (choice == "3 9")
+            {
+                pack[2].Attack(fleet[8]);
+                if (fleet[8].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[8].name + " Has Fallen...");
+                    fleet.RemoveAt(8);
+                }
+            }
+            if (choice == "3 10")
+            {
+                pack[2].Attack(fleet[9]);
+                if (fleet[9].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[9].name + " Has Fallen...");
+                    fleet.RemoveAt(9);
+                }
+            }
+            if (choice == "4 1")
+            {
+                pack[3].Attack(fleet[0]);
+                if (fleet[0].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[0].name + " Has Fallen...");
+                    fleet.RemoveAt(0);
+                }
+            }
+            if (choice == "4 2")
+            {
+                pack[3].Attack(fleet[1]);
+                if (fleet[1].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[1].name + " Has Fallen...");
+                    fleet.RemoveAt(1);
+                }
+            }
+            if (choice == "4 3")
+            {
+                pack[3].Attack(fleet[2]);
+                if (fleet[2].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[2].name + " Has Fallen...");
+                    fleet.RemoveAt(2);
+                }
+            }
+            if (choice == "4 4")
+            {
+                pack[3].Attack(fleet[3]);
+                if (fleet[3].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[3].name + " Has Fallen...");
+                    fleet.RemoveAt(3);
+                }
+            }
+            if (choice == "4 5")
+            {
+                pack[3].Attack(fleet[4]);
+                if (fleet[4].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[4].name + " Has Fallen...");
+                    fleet.RemoveAt(4);
+                }
+            }
+            if (choice == "4 6")
+            {
+                pack[3].Attack(fleet[5]);
+                if (fleet[5].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[5].name + " Has Fallen...");
+                    fleet.RemoveAt(5);
+                }
+            }
+            if (choice == "4 7")
+            {
+                pack[3].Attack(fleet[6]);
+                if (fleet[6].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[6].name + " Has Fallen...");
+                    fleet.RemoveAt(6);
+                }
+            }
+            if (choice == "4 8")
+            {
+                pack[3].Attack(fleet[7]);
+                if (fleet[7].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[7].name + " Has Fallen...");
+                    fleet.RemoveAt(7);
+                }
+            }
+            if (choice == "4 9")
+            {
+                pack[3].Attack(fleet[8]);
+                if (fleet[8].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[8].name + " Has Fallen...");
+                    fleet.RemoveAt(8);
+                }
+            }
+            if (choice == "4 10")
+            {
+                pack[3].Attack(fleet[9]);
+                if (fleet[9].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[9].name + " Has Fallen...");
+                    fleet.RemoveAt(9);
+                }
+            }
+            if (choice == "5 1")
+            {
+                pack[4].Attack(fleet[0]);
+                if (fleet[0].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[0].name + " Has Fallen...");
+                    fleet.RemoveAt(0);
+                }
+            }
+            if (choice == "5 2")
+            {
+                pack[4].Attack(fleet[1]);
+                if (fleet[1].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[1].name + " Has Fallen...");
+                    fleet.RemoveAt(1);
+                }
+            }
+            if (choice == "5 3")
+            {
+                pack[4].Attack(fleet[2]);
+                if (fleet[2].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[2].name + " Has Fallen...");
+                    fleet.RemoveAt(2);
+                }
+            }
+            if (choice == "5 4")
+            {
+                pack[4].Attack(fleet[3]);
+                if (fleet[3].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[3].name + " Has Fallen...");
+                    fleet.RemoveAt(3);
+                }
+            }
+            if (choice == "5 5")
+            {
+                pack[4].Attack(fleet[4]);
+                if (fleet[4].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[4].name + " Has Fallen...");
+                    fleet.RemoveAt(4);
+                }
+            }
+            if (choice == "5 6")
+            {
+                pack[4].Attack(fleet[5]);
+                if (fleet[5].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[5].name + " Has Fallen...");
+                    fleet.RemoveAt(5);
+                }
+            }
+            if (choice == "5 7")
+            {
+                pack[4].Attack(fleet[6]);
+                if (fleet[6].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[6].name + " Has Fallen...");
+                    fleet.RemoveAt(6);
+                }
+            }
+            if (choice == "5 8")
+            {
+                pack[4].Attack(fleet[7]);
+                if (fleet[7].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[7].name + " Has Fallen...");
+                    fleet.RemoveAt(7);
+                }
+            }
+            if (choice == "5 9")
+            {
+                pack[4].Attack(fleet[8]);
+                if (fleet[8].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[8].name + " Has Fallen...");
+                    fleet.RemoveAt(8);
+                }
+            }
+            if (choice == "5 10")
+            {
+                pack[4].Attack(fleet[9]);
+                if (fleet[9].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[9].name + " Has Fallen...");
+                    fleet.RemoveAt(9);
+                }
+            }
+            if (choice == "6 1")
+            {
+                pack[5].Attack(fleet[0]);
+                if (fleet[0].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[0].name + " Has Fallen...");
+                    fleet.RemoveAt(0);
+                }
+            }
+            if (choice == "6 2")
+            {
+                pack[5].Attack(fleet[1]);
+                if (fleet[1].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[1].name + " Has Fallen...");
+                    fleet.RemoveAt(1);
+                }
+            }
+            if (choice == "6 3")
+            {
+                pack[5].Attack(fleet[2]);
+                if (fleet[2].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[2].name + " Has Fallen...");
+                    fleet.RemoveAt(2);
+                }
+            }
+            if (choice == "6 4")
+            {
+                pack[5].Attack(fleet[3]);
+                if (fleet[3].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[3].name + " Has Fallen...");
+                    fleet.RemoveAt(3);
+                }
+            }
+            if (choice == "6 5")
+            {
+                pack[5].Attack(fleet[4]);
+                if (fleet[4].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[4].name + " Has Fallen...");
+                    fleet.RemoveAt(4);
+                }
+            }
+            if (choice == "6 6")
+            {
+                pack[5].Attack(fleet[5]);
+                if (fleet[5].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[5].name + " Has Fallen...");
+                    fleet.RemoveAt(5);
+                }
+            }
+            if (choice == "6 7")
+            {
+                pack[5].Attack(fleet[6]);
+                if (fleet[6].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[6].name + " Has Fallen...");
+                    fleet.RemoveAt(6);
+                }
+            }
+            if (choice == "6 8")
+            {
+                pack[5].Attack(fleet[7]);
+                if (fleet[7].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[7].name + " Has Fallen...");
+                    fleet.RemoveAt(7);
+                }
+            }
+            if (choice == "6 9")
+            {
+                pack[5].Attack(fleet[8]);
+                if (fleet[8].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[8].name + " Has Fallen...");
+                    fleet.RemoveAt(8);
+                }
+            }
+            if (choice == "6 10")
+            {
+                pack[5].Attack(fleet[9]);
+                if (fleet[9].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[9].name + " Has Fallen...");
+                    fleet.RemoveAt(9);
+                }
+            }
+            if (choice == "7 1")
+            {
+                pack[6].Attack(fleet[0]);
+                if (fleet[0].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[0].name + " Has Fallen...");
+                    fleet.RemoveAt(0);
+                }
+            }
+            if (choice == "7 2")
+            {
+                pack[6].Attack(fleet[1]);
+                if (fleet[1].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[1].name + " Has Fallen...");
+                    fleet.RemoveAt(1);
+                }
+            }
+            if (choice == "7 3")
+            {
+                pack[6].Attack(fleet[2]);
+                if (fleet[2].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[2].name + " Has Fallen...");
+                    fleet.RemoveAt(2);
+                }
+            }
+            if (choice == "7 4")
+            {
+                pack[6].Attack(fleet[3]);
+                if (fleet[3].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[3].name + " Has Fallen...");
+                    fleet.RemoveAt(3);
+                }
+            }
+            if (choice == "7 5")
+            {
+                pack[6].Attack(fleet[4]);
+                if (fleet[4].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[4].name + " Has Fallen...");
+                    fleet.RemoveAt(4);
+                }
+            }
+            if (choice == "7 6")
+            {
+                pack[6].Attack(fleet[5]);
+                if (fleet[5].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[5].name + " Has Fallen...");
+                    fleet.RemoveAt(5);
+                }
+            }
+            if (choice == "7 7")
+            {
+                pack[6].Attack(fleet[6]);
+                if (fleet[6].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[6].name + " Has Fallen...");
+                    fleet.RemoveAt(6);
+                }
+            }
+            if (choice == "7 8")
+            {
+                pack[6].Attack(fleet[7]);
+                if (fleet[7].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[7].name + " Has Fallen...");
+                    fleet.RemoveAt(7);
+                }
+            }
+            if (choice == "7 9")
+            {
+                pack[6].Attack(fleet[8]);
+                if (fleet[8].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[8].name + " Has Fallen...");
+                    fleet.RemoveAt(8);
+                }
+            }
+            if (choice == "7 10")
+            {
+                pack[6].Attack(fleet[9]);
+                if (fleet[9].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[9].name + " Has Fallen...");
+                    fleet.RemoveAt(9);
+                }
+            }
+            if (choice == "8 1")
+            {
+                pack[7].Attack(fleet[0]);
+                if (fleet[0].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[0].name + " Has Fallen...");
+                    fleet.RemoveAt(0);
+                }
+            }
+            if (choice == "8 2")
+            {
+                pack[7].Attack(fleet[1]);
+                if (fleet[1].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[1].name + " Has Fallen...");
+                    fleet.RemoveAt(1);
+                }
+            }
+            if (choice == "8 3")
+            {
+                pack[7].Attack(fleet[2]);
+                if (fleet[2].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[2].name + " Has Fallen...");
+                    fleet.RemoveAt(2);
+                }
+            }
+            if (choice == "8 4")
+            {
+                pack[7].Attack(fleet[3]);
+                if (fleet[3].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[3].name + " Has Fallen...");
+                    fleet.RemoveAt(3);
+                }
+            }
+            if (choice == "8 5")
+            {
+                pack[7].Attack(fleet[4]);
+                if (fleet[4].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[4].name + " Has Fallen...");
+                    fleet.RemoveAt(4);
+                }
+            }
+            if (choice == "8 6")
+            {
+                pack[7].Attack(fleet[5]);
+                if (fleet[5].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[5].name + " Has Fallen...");
+                    fleet.RemoveAt(5);
+                }
+            }
+            if (choice == "8 7")
+            {
+                pack[7].Attack(fleet[6]);
+                if (fleet[6].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[6].name + " Has Fallen...");
+                    fleet.RemoveAt(6);
+                }
+            }
+            if (choice == "8 8")
+            {
+                pack[7].Attack(fleet[7]);
+                if (fleet[7].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[7].name + " Has Fallen...");
+                    fleet.RemoveAt(7);
+                }
+            }
+            if (choice == "8 9")
+            {
+                pack[7].Attack(fleet[8]);
+                if (fleet[8].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[8].name + " Has Fallen...");
+                    fleet.RemoveAt(8);
+                }
+            }
+            if (choice == "8 10")
+            {
+                pack[7].Attack(fleet[9]);
+                if (fleet[9].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[9].name + " Has Fallen...");
+                    fleet.RemoveAt(9);
+                }
+            }
+            if (choice == "9 1")
+            {
+                pack[8].Attack(fleet[0]);
+                if (fleet[0].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[0].name + " Has Fallen...");
+                    fleet.RemoveAt(0);
+                }
+            }
+            if (choice == "9 2")
+            {
+                pack[8].Attack(fleet[1]);
+                if (fleet[1].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[1].name + " Has Fallen...");
+                    fleet.RemoveAt(1);
+                }
+            }
+            if (choice == "9 3")
+            {
+                pack[8].Attack(fleet[2]);
+                if (fleet[2].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[2].name + " Has Fallen...");
+                    fleet.RemoveAt(2);
+                }
+            }
+            if (choice == "9 4")
+            {
+                pack[8].Attack(fleet[3]);
+                if (fleet[3].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[3].name + " Has Fallen...");
+                    fleet.RemoveAt(3);
+                }
+            }
+            if (choice == "9 5")
+            {
+                pack[8].Attack(fleet[4]);
+                if (fleet[4].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[4].name + " Has Fallen...");
+                    fleet.RemoveAt(4);
+                }
+            }
+            if (choice == "9 6")
+            {
+                pack[8].Attack(fleet[5]);
+                if (fleet[5].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[5].name + " Has Fallen...");
+                    fleet.RemoveAt(5);
+                }
+            }
+            if (choice == "9 7")
+            {
+                pack[8].Attack(fleet[6]);
+                if (fleet[6].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[6].name + " Has Fallen...");
+                    fleet.RemoveAt(6);
+                }
+            }
+            if (choice == "9 8")
+            {
+                pack[8].Attack(fleet[7]);
+                if (fleet[7].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[7].name + " Has Fallen...");
+                    fleet.RemoveAt(7);
+                }
+            }
+            if (choice == "9 9")
+            {
+                pack[8].Attack(fleet[8]);
+                if (fleet[8].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[8].name + " Has Fallen...");
+                    fleet.RemoveAt(8);
+                }
+            }
+            if (choice == "9 10")
+            {
+                pack[8].Attack(fleet[9]);
+                if (fleet[9].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[9].name + " Has Fallen...");
+                    fleet.RemoveAt(9);
+                }
+            }
+            if (choice == "10 1")
+            {
+                pack[9].Attack(fleet[0]);
+                if (fleet[0].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[0].name + " Has Fallen...");
+                    fleet.RemoveAt(0);
+                }
+            }
+            if (choice == "10 2")
+            {
+                pack[9].Attack(fleet[1]);
+                if (fleet[1].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[1].name + " Has Fallen...");
+                    fleet.RemoveAt(1);
+                }
+            }
+            if (choice == "10 3")
+            {
+                pack[9].Attack(fleet[2]);
+                if (fleet[2].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[2].name + " Has Fallen...");
+                    fleet.RemoveAt(2);
+                }
+            }
+            if (choice == "10 4")
+            {
+                pack[9].Attack(fleet[3]);
+                if (fleet[3].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[3].name + " Has Fallen...");
+                    fleet.RemoveAt(3);
+                }
+            }
+            if (choice == "10 5")
+            {
+                pack[9].Attack(fleet[4]);
+                if (fleet[4].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[4].name + " Has Fallen...");
+                    fleet.RemoveAt(4);
+                }
+            }
+            if (choice == "10 6")
+            {
+                pack[9].Attack(fleet[5]);
+                if (fleet[5].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[5].name + " Has Fallen...");
+                    fleet.RemoveAt(5);
+                }
+            }
+            if (choice == "10 7")
+            {
+                pack[9].Attack(fleet[6]);
+                if (fleet[6].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[6].name + " Has Fallen...");
+                    fleet.RemoveAt(6);
+                }
+            }
+            if (choice == "10 8")
+            {
+                pack[9].Attack(fleet[7]);
+                if (fleet[7].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[7].name + " Has Fallen...");
+                    fleet.RemoveAt(7);
+                }
+            }
+            if (choice == "10 9")
+            {
+                pack[9].Attack(fleet[8]);
+                if (fleet[8].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[8].name + " Has Fallen...");
+                    fleet.RemoveAt(8);
+                }
+            }
+            if (choice == "10 10")
+            {
+                pack[9].Attack(fleet[9]);
+                if (fleet[9].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[9].name + " Has Fallen...");
+                    fleet.RemoveAt(9);
+                }
+            }
+            if (choice == "End")
+            {
+                Console.WriteLine("The Herd has scattered.");
+                Console.WriteLine("The Fleet Claims Victory this Day!");
+                Console.WriteLine("Please close out application");
+            }
+            Console.ReadLine();
         }
     }
 }

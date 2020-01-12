@@ -2038,6 +2038,13 @@ namespace Robots_vs.Dinosaurs
                 }
 
             }
+           if (choice == "End")
+            {
+                Console.WriteLine("The Fleet has been destroyed");
+                Console.WriteLine("The Herd Claims Victory this Day!");
+                Console.WriteLine("Please close out application");
+            }
+            Console.ReadLine();
         }
     }
 }
