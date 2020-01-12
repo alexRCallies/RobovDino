@@ -50,7 +50,10 @@ namespace Robots_vs.Dinosaurs
                     Console.WriteLine("SUCCESFUL HIT");
                 }
             }
-
+            else
+            {
+                Console.WriteLine("MISS!!!");
+            }
 
         }
     }

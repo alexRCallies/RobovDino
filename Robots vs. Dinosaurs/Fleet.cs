@@ -2044,7 +2044,7 @@ namespace Robots_vs.Dinosaurs
                 Console.WriteLine("The Herd Claims Victory this Day!");
                 Console.WriteLine("Please close out application");
             }
-            Console.ReadLine();
+            
         }
     }
 }
