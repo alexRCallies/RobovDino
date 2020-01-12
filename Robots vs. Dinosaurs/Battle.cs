@@ -10,13 +10,17 @@ namespace Robots_vs.Dinosaurs
     {
         Herd herd = new Herd();
         Fleet fleet = new Fleet();
-        
-        public void RunBattle()
+
+        public void RunTeamSelect ()
         {
-           // herd.RecruitHerd(herd.herdList);
+            herd.RecruitHerd(herd.herdList);
             fleet.ConstructFleet(fleet.robots);
             fleet.PurchaseItems(fleet.shop);
             fleet.EquipItems();
+            fleet.BeginAttack(herd.pack);
+            herd.BeginHerdAttack(fleet.fleet);
+            fleet.BeginAttack(herd.pack);
         }
+        
     }
 }

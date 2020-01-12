@@ -19,10 +19,10 @@ namespace Robots_vs.Dinosaurs
         public Herd()
         {
             raptor = new Dinosaur("Raptor", 200, 100, 4, 2, 1);
-            giga = new Dinosaur("Giganotasaurus", 650, 200, 2, 5, 5);
+            giga = new Dinosaur("Giganotasaurus", 850, 400, 2, 10, 5);
              anky = new Dinosaur("Ankylosaurus", 1100, 100, 1, 2, 3);
              ptera = new Dinosaur("Pteranadon", 100, 150, 6, 6, 2);
-             packleader = new Dinosaur("Dino Rider", 300, 150, 5, 7, 4);
+             packleader = new Dinosaur("Dino Rider", 400, 300, 5, 7, 4);
           
             herdList.Add(raptor);
             herdList.Add(giga);
@@ -171,6 +171,35 @@ namespace Robots_vs.Dinosaurs
             Console.WriteLine("Your Herd has answered your call!");
             Console.WriteLine("");
             
+        }
+
+        public void BeginHerdAttack(List<Robot> fleet)
+        {
+            foreach (Dinosaur dino in pack)
+            {
+                Console.WriteLine("");
+                Console.WriteLine($"Name: { dino.name + "/  Health/" + dino.health + "/  Attack/" + dino.attackPower + "/  Evasion/" + dino.evasion + "/  Costs/" + dino.teamValue}");
+                Console.WriteLine("");
+            }
+            foreach (Robot robot in fleet)
+            {
+                Console.WriteLine("");
+                Console.WriteLine($"Name: { robot.name + "/  Health/" + robot.health + "/  Attack/" + robot.attackPower + "/  Evasion/" + robot.evasionPower + "/  costs/" + robot.teamValue}");
+                Console.WriteLine("");
+            }
+            Console.WriteLine("Begin Ypur Attack");
+            string choice = Console.ReadLine();
+            Fleet fleet1 = new Fleet();
+            if (choice == "1 1")
+            {
+                pack[0].Attack(fleet[0]);
+                if (fleet[0].health <= 0)
+                {
+
+                    Console.WriteLine(fleet[0].name + " Has Fallen...");
+                    pack.RemoveAt(0);
+                }
+            }
         }
     }
 }

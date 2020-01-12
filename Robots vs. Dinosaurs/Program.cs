@@ -12,7 +12,7 @@ namespace Robots_vs.Dinosaurs
         {
             Battle battle = new Battle();
 
-            battle.RunBattle();
+            battle.RunTeamSelect();
             Console.ReadLine();
         }
     }

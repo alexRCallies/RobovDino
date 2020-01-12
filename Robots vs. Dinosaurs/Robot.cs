@@ -42,6 +42,7 @@ namespace Robots_vs.Dinosaurs
                 {
                     dinos.health -= (attackPower * 2);
                     Console.WriteLine("CRITCAL HIT!!!");
+                    
                 }
                 else
                 {

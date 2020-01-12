@@ -28,24 +28,29 @@ namespace Robots_vs.Dinosaurs
             this.teamValue = teamValue;
 
         }
-        public void Attack(Robot robots)
+        public void Attack(Robot fleet)
         {
             Random hitRoll = new Random();
             int hit = hitRoll.Next(1, 11);
             Random critRoll = new Random();
             int crit = critRoll.Next(1, 11);
-            if(hit > robots.evasionPower)
+            Console.WriteLine(name + " will attack " + fleet.name);
+            if(hit > fleet.evasionPower)
             {
-                if(crit > critChance)
+                if(crit < critChance)
                 {
-                    robots.health -= (attackPower * 2);
+                    fleet.health -= (attackPower * 2);
                     Console.WriteLine("CRITCAL HIT!!!");
                 }
                 else
                 {
-                    robots.health -= attackPower;
+                    fleet.health -= attackPower;
                     Console.WriteLine("SUCCESFUL HIT");
                 }
+            }
+            else
+            {
+                Console.WriteLine("MISS");
             }
 
 
